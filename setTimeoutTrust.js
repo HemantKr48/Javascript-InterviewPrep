@@ -6,13 +6,13 @@ setTimeout(() => {
 
 //millions line of code
 
-let startDate=new Date().getTime();
+let startDate = new Date().getTime();
 console.log(startDate);
-let endDate=startDate;
+let endDate = startDate;
 
-while(endDate<startDate+10000){
-        
-    endDate=new Date().getTime();
+while (endDate < startDate + 10000) {
+
+    endDate = new Date().getTime();
 }
 
 console.log("end");
